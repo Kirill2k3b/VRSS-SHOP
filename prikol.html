@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricol</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="prikol.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<body>
+
+
+
+    <header class="header">
+        <button class="header__burger-btn" id="burger">
+            <span></span><span></span><span></span>
+        </button>
+        <img src="img/Standard%20Collection%2013.png" alt="" class="logo">
+        <nav class="navigation">
+            <a href="index.html" class="Home">Home</a>
+            <a href="About%20us.html" class="Home">About Us</a>
+            <a href="service.html" class="Home">Service</a>
+            <a href="prikol.html" class="Home">Pricing</a>
+            <!--<a href="blog.html" class="Home">Blog</a> !!!!!!!!!!!!!!!!!-->
+            <a href="Contact-Us.html" class="Home">Contact Us</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+
+
+
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+    
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required> 
+                    <label>Email</label> 
+                                
+    
+                </div>
+                <div class="input-box">
+                    <!--<span class="icon"><i class="fa fa-eye"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>-->
+                    <input type="password" id="password-input">
+                    <span><button id="show-password-btn"><i class="fa fa-eye"></i></button></span>
+                    <label>Password</label>
+                    
+                    
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn-wrapper">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#"
+                        class="register-link">Register</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+        
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+    
+                </div>
+    
+                <div class="input-box">
+                    <span class="icon"><i class="fa fa-eye"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">I agree to the terms
+                         & conditions
+                    </label>   
+                </div>
+                <button type="submit" class="btn-wrapper">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#"
+                        class="login-link">Login</a>
+                    </p>
+                </div>
+            </form>
+        </div>   
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <main class="main flow">
+        <h1 class="main__heading">Our Pricing Plans</h1>
+        <h2 class="sub-main-heading">When you’re ready to go beyond prototyping in Figma, Webflow is<br>
+            ready to help you bring your designs to life — without coding them.</h2>
+        <div class="main__cards cards">
+          <div class="cards__inner">
+            <div class="cards__card card">
+              <h2 class="card__heading">Per Design</h2>
+              <p class="card__price">$19.99</p>
+              <h3 class="card__title">Landing Page</h3>
+              <p class="card__subtitle">When you’re ready to go beyond<br>
+                    prototyping in Figma</p>
+              <ul role="list" class="card__bullets flow">
+                <li>All limited links</li>
+                <li>Own analytics platform</li>
+                <li>Chat support</li>
+              </ul>
+              <a href="#basic" class="card__cta cta">Get Started</a>
+            </div>
+      
+            <div class="cards__card card">
+              <h2 class="card__heading">Multi Design</h2>
+              <p class="card__price">$29.99</p>
+              <h3 class="card__title">Website Page</h3>
+              <p class="card__subtitle">When you’re ready to go beyond<br>
+                prototyping in Figma, Webflow’s<br>
+                ready to help.</p>
+              <ul role="list" class="card__bullets flow">
+                <li>All limited links</li>
+                <li>Own analytics platform</li>
+                <li>Chat support</li>
+                <li>Optimize hashtags</li>
+              </ul>
+              <a href="#pro" class="card__cta cta">Upgrade to Pro</a>
+            </div>
+      
+            <div class="cards__card card">
+              <h2 class="card__heading">Per Design + Multi Design</h2>
+              <p class="card__price">$39.99</p>
+              <h3 class="card__title">Complex Project</h3>
+              <p class="card__subtitle">When you’re ready to go beyond<br>
+                    prototyping in Figma</p>
+              <ul role="list" class="card__bullets flow">
+                <li>All limited links</li>
+                <li>Own analytics platform</li>
+                <li>Chat support</li>
+                <li>Optimize hashtags</li>
+                <li>Assist and Help</li>
+              </ul>
+              <a href="#ultimate" class="card__cta cta">Go Ultimate</a>
+            </div>
+          </div>
+          
+          <div class="overlay cards__inner"></div>
+        </div>
+      </main>
+
+
+
+
+
+      <!--Freq question-->
+
+      <div class="question">
+        <div class="container">
+            <div class="obwie-contect-block">
+                <div class="content-first-block">
+                    <div class="freque">
+                        Frequently<br>
+                        asked questions
+                    </div>
+    
+                    <div class="sub-freque">
+                        Contact us For More Info
+                    </div>
+                </div>
+    
+                <div class="content-second-block">
+                    <div class="how-much">
+                        <span class="spaner1">01</span>
+                        <!--<a href="#" class="ssls">How much time does it take ?</a>-->
+                        <button class="collapsible">How much time does it take ?</button>
+                        <div class="content">
+                            <p>When you’re ready to go beyond<br>
+                                prototyping in Figma, Webflow’s<br>
+                                ready to help.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="what-is">
+                        <span class="spaner2">02</span>
+                        <button class="collapsible">What is your class naming convention ?</button>
+                        <div class="content">
+                            <p>When you’re ready to go beyond<br>
+                                prototyping in Figma, Webflow’s<br>
+                                ready to help.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="how-do">
+                        <span class="spaner3">03</span>
+                        <button class="collapsible">How do we communicate ?</button>
+                        <div class="content">
+                            <p>When you’re ready to go beyond<br>
+                                prototyping in Figma, Webflow’s<br>
+                                ready to help.
+                            </p>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="i-have">
+                        <span class="spaner4">04</span>
+                        <button class="collapsible">I have a bigger project. Can you handle it ?</button>
+                        <div class="content">
+                            <p>When you’re ready to go beyond<br>
+                                prototyping in Figma, Webflow’s<br>
+                                ready to help.
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="your-class">
+                        <span class="spaner5">05</span>
+                        <button class="collapsible">What is your class naming convention ?</button>
+                        <div class="content">
+                            <p>When you’re ready to go beyond<br>
+                                prototyping in Figma, Webflow’s<br>
+                                ready to help.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <!-- FOOTER-->
+    
+    
+    <footer id="footer-section">
+        <div class="footer-wrap">
+            <div class="footer-img">
+                <img src="img/Standard%20Collection%2013.png" alt="" class="">
+            </div>
+            <div class="footer-info">
+
+                    <!--<a href="#" class="">About us</a>
+                    <a href="#" class="">Service</a>
+                    <a href="#" class="">Pricing</a>
+                    <a href="#" class="">Contact Us</a>
+                    <a href="#" class="">Telegram</a>-->
+                
+
+                <ul class="footer-nav__list footer-nav__list_underlined">
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="#">About us</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="#">Service</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="#">Pricing</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="#">Contact Us</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="#">Telegram</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+<script src="prikol.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
