@@ -972,14 +972,19 @@ ul {
         margin: 0 auto;
         font-size: 14px;
     }
-    .content-second-block{
-        margin: 0 auto;
-    }
+
     .cards__inner{
         margin: 0 auto;
     }
     .flow {
         padding: 0;
+    }
+    .content{
+        padding: 0;
+    }
+    .content p{
+        padding: 0;
+        font-size: 12px;
     }
 
 }
