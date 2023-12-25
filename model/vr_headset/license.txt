@@ -1,0 +1,11 @@
+Model Information:
+* title:	Vr Headset
+* source:	https://sketchfab.com/3d-models/vr-headset-0e4a52d027254fd0ba2b68ac8b524438
+* author:	Fred Drabble (https://sketchfab.com/FredDrabble)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Vr Headset" (https://sketchfab.com/3d-models/vr-headset-0e4a52d027254fd0ba2b68ac8b524438) by Fred Drabble (https://sketchfab.com/FredDrabble) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
